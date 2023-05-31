@@ -6,7 +6,7 @@
 4.Add docker file
 5.Create Repo in GitHub/CodeCommit/any repo
 6.Push SpringBoot app into Repo
-7.Create Code build-Here image will push to ECR.
+7.Create Code build-Here image will push to ECR. 
 8.ECS->
 	i.Create Cluster 
 	ii.Create Task defination(which is required Image URI from Docker/ECR)
