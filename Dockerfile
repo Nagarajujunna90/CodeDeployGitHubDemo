@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE 8084
-ADD target/springboot-sample-app-1.0.0.jar springboot-sample-app.jar
-ENTRYPOINT ["java","-jar","/springboot-sample-app.jar"]
+EXPOSE 9090
+ADD target/spring-boot-sample-app-1.0.0.jar spring-boot-sample-app.jar
+ENTRYPOINT ["java","-jar","/spring-boot-sample-app.jar"]
