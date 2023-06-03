@@ -17,8 +17,6 @@ phases:
 artifacts:
   files:
     - target/spring-boot-sample-app-1.0.0.jar
-    - scripts/server_clear.sh
-    - scripts/fix_privileges.sh
-    - scripts/server_start.sh
-    - scripts/server_stop.sh
+    - scripts/*.sh
     - appspec.yml
+  discard-paths: yes
