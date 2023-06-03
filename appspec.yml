@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
-    destination: /home/ec2-user/server
+  - source: /spring-boot-sample-app-1.0.0.jar
+    destination: /tmp
 
 permissions:
   - object: /
