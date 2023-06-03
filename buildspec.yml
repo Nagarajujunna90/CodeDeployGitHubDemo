@@ -3,9 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      java: openjdk8
   build:
     commands:
+      - mvn -v
       - mvn clean install
   post_build:
     commands:
