@@ -25,6 +25,7 @@ phases:
     - echo Writing image definitions file... 
     - printf '[{"name":"SpringBootAppContainer", "imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
+  discard-paths: yes
   files:
     - imagedefinitions.json
     - target/spring-boot-sample-app-1.0.0.jar
