@@ -1,5 +1,5 @@
-#Spring-boot-sample------AWS-ECR,ECS,CodeBuild Example
-========================================================
+#Spring-boot-sample-Not used DB------AWS-ECR,ECS,CodeBuild Example
+====================================================================
 1.Create ECR in AWS.
 
 2.Create SpringBoot project.
