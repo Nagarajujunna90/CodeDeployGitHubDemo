@@ -8,8 +8,8 @@ phases:
     commands:
       - echo Build started on `date`
       - java -version
-      - mvn install
-      - mvn -v
+#      - mvn install
+#      - mvn -v
       - mvn clean install
   post_build:
     commands:
@@ -20,3 +20,5 @@ artifacts:
     - scripts/*.sh
     - appspec.yml
   discard-paths: yes
+  type: S3
+  path: /
