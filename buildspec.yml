@@ -10,7 +10,7 @@ phases:
       - java -version
 #      - mvn install
 #      - mvn -v
-      - mvn clean install
+#      - mvn clean install
   post_build:
     commands:
       - echo Build completed
@@ -22,3 +22,4 @@ artifacts:
   discard-paths: yes
   type: S3
   path: /
+  base-directory: 'dist'
