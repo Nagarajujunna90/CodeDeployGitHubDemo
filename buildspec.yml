@@ -20,6 +20,3 @@ artifacts:
     - scripts/*.sh
     - appspec.yml
   discard-paths: yes
-  type: S3
-  path: /
-  base-directory: 'dist'
