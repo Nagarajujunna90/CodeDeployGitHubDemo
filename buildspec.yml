@@ -10,7 +10,7 @@ phases:
       - java -version
 #      - mvn install
 #      - mvn -v
-#      - mvn clean install
+      - mvn clean install
   post_build:
     commands:
       - echo Build completed
